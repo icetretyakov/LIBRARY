@@ -22,7 +22,7 @@ header {
   background-color: #0c0c0e;
 }
 .container {
-  width: 1400px;
+  width: 1440px;
   margin: auto;
 }
 .header_items {
@@ -37,6 +37,7 @@ header {
   gap: 30px;
 }
 .header_items h2 {
+  margin-left: 20px;
   font-family: "Forum";
   color: #fff;
   font-size: 30px;
@@ -64,6 +65,7 @@ header {
       180deg,
       #0c0c0e 0%,
       #0c0c0e 0.01%,
+      rgba(18, 18, 21, 0.1) 50%,
       rgba(18, 18, 21, 0.1) 100%
     ),
     url("../assets/img/welcome.jpg") center;
@@ -73,9 +75,7 @@ header {
 }
 
 .header_title {
-  display: flex;
-  height: 600px;
-  align-items: center;
+  padding: 220px 0;
 }
 .header_title h1 {
   padding: 35px 40px;
